@@ -1,5 +1,5 @@
 import WorkCard from "./WorkCard";
-import Links from '../assets/projects/links.png'
+import Links from '../assets/projects/linktri.png'
 import Bingo from '../assets/projects/bingo.png'
 
 const projects = [

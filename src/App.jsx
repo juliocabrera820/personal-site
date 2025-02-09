@@ -16,9 +16,9 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 1, delay: 0.2 }}
             >
               <img 
                 src={Avatar}
@@ -30,13 +30,13 @@ function App() {
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, x: 20 }}
+              initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-right"
+              transition={{ duration: 1, delay: 0.4 }}
+              className="text-center"
             >
               <h2 className="text-4xl md:text-5xl font-serif mb-8">Software engineer dedicated to crafting innovative and high-impact digital experiences.</h2>
-              <div className="flex gap-4 justify-end">
+              <div className="flex gap-4 justify-center">
                 <Button href='https://x.com/arielcabrera_11' text="Talk with me" />
                 <Button variant="secondary" href="https://www.linkedin.com/in/julio-cabrera-820" text="See my work"/>
               </div>

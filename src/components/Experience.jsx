@@ -5,13 +5,13 @@ const workExperience = [
     company: "Reservamos",
     role: "Backend Developer",
     date: "Sep 2021 - Present",
-    icon: <div className="w-full h-full bg-pink-400 rounded-full" />
+    icon: <div className="w-8 h-8 md:w-8 md:h-8 bg-pink-400 rounded-full" />
   },
   {
     company: "Coatí Labs",
     role: "Fullstack Developer",
     date: "Oct 2020 - Dec 2020",
-    icon: <div className="w-full h-full bg-teal-500 rounded-full" />
+    icon: <div className="w-8 h-8 md:w-8 md:h-8 bg-teal-500 rounded-full" />
   }
 ];
 const Experience = () => {

@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 
 const Recognition = ({ title, organization, date }) => (
   <motion.div 
-    initial={{ opacity: 0, x: -20 }}
+    initial={{ opacity: 0, x: -50 }}
     whileInView={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.5 }}
+    viewport={{ once: true }}
+    transition={{ duration: 1 }}
     className="p-6 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 flex items-center justify-between"
   >
     <div className="flex items-center gap-4">

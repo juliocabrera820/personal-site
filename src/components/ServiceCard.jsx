@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 
 const ServiceCard = ({ icon: Icon, title, description }) => (
   <motion.div 
-    initial={{ opacity: 0, y: 20 }}
+    initial={{ opacity: 0, y: 60 }}
     whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.5 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.7 }}
     className="p-8 rounded-3xl bg-white hover:shadow-lg transition-all duration-300"
   >
     <div className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center mb-6">

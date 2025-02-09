@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 
 const ExperienceCard = ({ company, role, date, icon }) => (
   <motion.div 
-    initial={{ opacity: 0, y: 20 }}
+    initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.5 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8 }}
     className="p-6 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300"
   >
     <div className="flex items-center justify-between mb-2">

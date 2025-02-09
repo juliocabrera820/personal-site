@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 
 const WorkCard = ({ image, title, description }) => (
   <motion.div 
-    initial={{ opacity: 0, y: 20 }}
+    initial={{ opacity: 0, y: 80 }}
     whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.5 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.7 }}
     className="rounded-3xl bg-white overflow-hidden hover:shadow-lg transition-all duration-300"
   >
     <img src={image} alt={title} className="w-full h-64 object-cover" />
