@@ -5,9 +5,9 @@ import {
 import Avatar from '../assets/avatar.jpeg';
 
 const Footer = () => (
-  <footer className="bg-black text-white py-24">
+  <footer className="bg-black text-white py-16">
     <div className="max-w-6xl mx-auto px-6">
-      <div className="grid md:grid-cols-4 gap-12">
+      <div className="grid md:grid-cols-4 gap-6">
         <div className="col-span-2">
           <div className="flex items-center gap-4 mb-6">
             <img 
@@ -20,7 +20,7 @@ const Footer = () => (
               <p className="text-gray-400">Software Engineer</p>
             </div>
           </div>
-          <p className="text-gray-400 leading-relaxed mb-6">
+          <p className="text-gray-400 leading-relaxed mb-6 pr-12">
           Creative and resourceful software engineer, capable of transforming ideas into innovative digital solutions that solve complex problems.
           </p>
         </div>
@@ -37,12 +37,12 @@ const Footer = () => (
         <div>
           <h4 className="font-serif text-lg mb-6">Get in Touch</h4>
           <div className="space-y-4">
-            <a href="mailto:hello@albertflores.com" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
-              <Mail className="w-5 h-5" />
+            <a href="mailto:hello@albertflores.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+              <Mail className="w-4 h-4" />
               <span>juliocabrera820@gmail.com</span>
             </a>
-            <div className="flex items-center gap-3 text-gray-400">
-              <MapPin className="w-5 h-5" />
+            <div className="flex items-center gap-2 text-gray-400">
+              <MapPin className="w-4 h-4" />
               <span>Mérida, Yucatán, México</span>
             </div>
           </div>
